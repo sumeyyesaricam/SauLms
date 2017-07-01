@@ -1,4 +1,6 @@
 # SauLms
+ALgoritma 
+![lms](https://user-images.githubusercontent.com/8450572/27765999-6096408e-5eca-11e7-9541-8aa9a540480e.png)
 Uygulamanın Ekran Görüntüleri
 ![screenshot_2016-01-06-23-54-35_1](https://user-images.githubusercontent.com/8450572/27765079-91009e5e-5eb1-11e7-8a9b-55cbbc4879fb.jpg)
 ![screenshot_2016-01-06-23-57-40_1](https://user-images.githubusercontent.com/8450572/27765082-98d02ca8-5eb1-11e7-9e9b-e45d6c52643c.jpg)
