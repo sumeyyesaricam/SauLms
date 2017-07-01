@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Saulms</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_assigment">AssigmentActivity</string>
+    <string name="title_activity_content">ContentActivity</string>
+    <string name="title_activity_course">CourseActivity</string>
+    <string name="title_activity_exam">ExamActivity</string>
+    <string name="title_activity_vclass">VClassActivity</string>
+    <string name="title_activity_splash_screen">SplashScreen</string>
+    <string name="title_activity_video">VideoActivity</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="gcm_defaultSenderId">1234</string>
+</resources>

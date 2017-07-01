@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp"
+    android:layout_marginTop="10dp"
+    android:padding="10dp"
+    android:background="@drawable/card_background" >
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true" >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/txtCourseName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:text="Ders Adı" 
+                    android:textColor="@color/wheTextBlue"
+                    android:textStyle="bold"
+                    android:textSize="18sp"/>
+
+            </RelativeLayout>
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/txtGroupName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:text="Grup Adı" 
+                    android:textColor="@color/wheTextGray"/>
+
+            </RelativeLayout>
+
+        </TableRow>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+            <ImageView
+                android:id="@+id/img_vclass"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/icon_vclass" />
+            
+ 			<ImageView
+                android:id="@+id/img_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="80dp"
+                android:src="@drawable/icon_content" />
+            
+            <ImageView
+                android:id="@+id/img_assigment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="140dp"
+                android:src="@drawable/icon_assigment" />
+
+            <ImageView
+                android:id="@+id/img_exam"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="200dp"
+                android:src="@drawable/icon_exam" />
+            
+           
+
+            <TextView
+                android:id="@+id/txtVcount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/img_vclass"
+                android:layout_marginLeft="4dp"
+                android:layout_toRightOf="@+id/img_vclass"
+                android:text="0" />
+            <TextView
+                android:id="@+id/txtCcount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/img_content"
+                android:layout_marginLeft="4dp"
+                android:layout_toRightOf="@+id/img_content"
+                android:text="0" />
+            
+            <TextView
+                android:id="@+id/txtAcount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/img_assigment"
+                android:layout_marginLeft="4dp"
+                android:layout_toRightOf="@+id/img_assigment"
+                android:text="0" />
+            
+            <TextView
+                android:id="@+id/txtEcount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/img_exam"
+                android:layout_marginLeft="4dp"
+                android:layout_toRightOf="@+id/img_exam"
+                android:text="0" />
+
+        </RelativeLayout>
+    </TableLayout>
+    
+</RelativeLayout>
+
+

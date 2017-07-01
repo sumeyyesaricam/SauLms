@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/card_background">
+
+    <TextView
+        android:id="@+id/txtStartDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtVClassName"
+        android:text="Tarih" />
+
+    <TextView
+        android:id="@+id/txtDuration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txtStartDate"
+        android:layout_alignBottom="@+id/txtStartDate"
+        android:layout_toRightOf="@+id/txtVClassName"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/txtVClassName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtStartDate"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="16dp"
+        android:text="Sanal Sınıf Adı" />
+
+</RelativeLayout>

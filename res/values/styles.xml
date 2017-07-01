@@ -1,0 +1,35 @@
+<resources>
+<color name="wheLightBlue">#1cb0f6</color>
+<color name="wheDarkBlue">#08446A</color>
+<color name="wheTextBlue" >#5490CC</color>
+<color name="wheTextGray" >#8c8c8c</color>
+<color name="wheLightGray">#f2f2f2</color>
+<color name="wheDarkGray">#D6D6D6</color>
+<color name="whited">#FFFFFF</color>
+<color name="wheLightMetalic" >#bdcdd4</color>
+<style name="blueButton" parent="android:style/Widget.Button">
+  <item name="android:background">@drawable/rectangle_blue</item>
+  <item name="android:textColor">@android:color/white</item>
+  <item name="android:paddingLeft">10dp</item>
+  <item name="android:paddingRight">10dp</item>
+  <item name="android:paddingTop">5dp</item>
+  <item name="android:paddingBottom">10dp</item>
+ </style>
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+</resources>
