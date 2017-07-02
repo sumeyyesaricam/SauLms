@@ -1,4 +1,5 @@
 # SauLms
+   SauLms project is an Android-based mobile application developed for the distance learning system of Sakarya University. The application was used by students of Sakarya University. Students can see course content and assignments.
 ### AKIŞ DİYAGRAMI
 ![lms](https://user-images.githubusercontent.com/8450572/27765999-6096408e-5eca-11e7-9541-8aa9a540480e.png)
 ### Uygulamanın Ekran Görüntüleri
